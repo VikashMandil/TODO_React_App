@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.addTask {
+  background: #5194a8;
+  padding: 15px;
+}
+
+.addTask input {
+  border: 1px solid blue;
+  border-radius: 5px;
+  height: 25px;
+  width: 300px;
+}
+
+.addBtn {
+  height: 25px;
+  width: 75px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background: lightgoldenrodyellow;
+}
+
+.addBtn:hover {
+  height: 30px;
+  width: 80px;
+}
+
+.taskList {
+  background: lightgray;
+  padding: 10px;
+  height: 100vh;
+}
+
+.task {
+  background: lightcyan;
+  border-radius: 10px;
+  height: 60px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.editBtn {
+  height: 25px;
+  width: 75px;
+  border-radius: 5px;
+  border: none;
+  background: lightgreen;
+}
+
+.editBtn:hover {
+  height: 30px;
+  width: 80px;
+}
+
+.deleteBtn {
+  height: 25px;
+  width: 75px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background: lightcoral;
+}
+
+.deleteBtn:hover {
+  height: 30px;
+  width: 80px;
+}
